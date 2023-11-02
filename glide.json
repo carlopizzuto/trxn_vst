@@ -1,32 +1,26 @@
-[
-    {
-        "kind": "column",
-        "name": "Image compiler",
-        "description": "Compiles all of the image lists in the related Visit Materials",
-        "author": "Carlo Pizzuto",
-        "params": [
-            { 
-                "name": "relation", 
-                "displayName": "Visit Materials",
-                "type": {
-                    "kind": "array",
-                    "items": "primitive",
-                }
-            },
-            { 
-                "name": "materialName", 
-                "displayName": "material name",
-                "type": "string",
-            }
-        ],
-        "result": {
-            "name": "array", 
-            "displayName": "all images",
-            "type": 
-            { 
+
+{
+    "kind": "column",
+    "name": "ImageCompiler",
+    "description": "Compiles all of the image lists in the related Visit Materials",
+    "author": "Carlo Pizzuto <carlo.pizzutoa@gmail.com>",
+    "params": [
+        { 
+            "name": "relation", 
+            "displayName": "VisitMaterials",
+            "type": {
                 "kind": "array",
                 "items": "primitive",
             }
         }
+    ],
+    "result": {
+        "name": "array", 
+        "displayName": "Images",
+        "type": 
+        { 
+            "kind": "array",
+            "items": "primitive",
+        }
     }
-]
+}
