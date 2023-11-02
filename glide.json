@@ -3,11 +3,14 @@
         "kind": "column",
         "name": "Image compiler",
         "description": "Compiles all of the image lists in the related Visit Materials",
-        "parameters": [
+        "params": [
             { 
                 "name": "visitMaterials", 
                 "displayName": "Visit Materials",
-                "type": "array" 
+                "type": {
+                    "kind": "array",
+                    "items": "primitive"
+                }
             },
             { 
                 "name": "materialName", 
