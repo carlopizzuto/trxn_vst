@@ -6,7 +6,7 @@
         "author": "Carlo Pizzuto",
         "params": [
             { 
-                "name": "visitMaterials", 
+                "name": "relation", 
                 "displayName": "Visit Materials",
                 "type": {
                     "kind": "array",
