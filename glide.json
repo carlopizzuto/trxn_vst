@@ -3,6 +3,7 @@
         "kind": "column",
         "name": "Image compiler",
         "description": "Compiles all of the image lists in the related Visit Materials",
+        "author": "Carlo Pizzuto",
         "params": [
             { 
                 "name": "visitMaterials", 
@@ -17,7 +18,7 @@
                 "displayName": "material name",
                 "type": "string" 
             }
-        ]
+        ],
         "result": {
             "type": "array", 
             "displayName": "all images",
