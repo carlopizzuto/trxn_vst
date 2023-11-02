@@ -10,13 +10,13 @@
                 "displayName": "Visit Materials",
                 "type": {
                     "kind": "array",
-                    "items": "primitive"
+                    "items": "primitive",
                 }
             },
             { 
                 "name": "materialName", 
                 "displayName": "material name",
-                "type": "string" 
+                "type": "string",
             }
         ],
         "result": {
@@ -25,7 +25,7 @@
             "type": 
             { 
                 "kind": "array",
-                "items": "primitive"
+                "items": "primitive",
             }
         }
     }
