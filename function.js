@@ -1,6 +1,6 @@
-window.function = function(visitMaterialsRelation) {
+window.function = function (relation) {
     const allImages = [];
-    visitMaterialsRelation.value.forEach(material => {
+    relation.value.forEach(material => {
         const visitImages = material['visit images'];
         allImages.push(...visitImages);
     });
