@@ -1,26 +1,28 @@
-{
-    "kind": "column",
-    "name": "Image compiler",
-    "description": "Compiles all of the image lists in the related Visit Materials",
-    "parameters": [
-        { 
-            "name": "visitMaterials", 
-            "displayName": "Visit Materials",
-            "type": "array" 
-        },
-        { 
-            "name": "materialName", 
-            "displayName": "material name",
-            "type": "string" 
-        }
-    ]
-    "result": {
-        "type": "array", 
-        "displayName": "all images",
-        "type": 
-        { 
-            "kind": "array",
-            "items": "primitive"
+[
+    {
+        "kind": "column",
+        "name": "Image compiler",
+        "description": "Compiles all of the image lists in the related Visit Materials",
+        "parameters": [
+            { 
+                "name": "visitMaterials", 
+                "displayName": "Visit Materials",
+                "type": "array" 
+            },
+            { 
+                "name": "materialName", 
+                "displayName": "material name",
+                "type": "string" 
+            }
+        ]
+        "result": {
+            "type": "array", 
+            "displayName": "all images",
+            "type": 
+            { 
+                "kind": "array",
+                "items": "primitive"
+            }
         }
     }
-}
+]
