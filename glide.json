@@ -20,7 +20,7 @@
             }
         ],
         "result": {
-            "type": "array", 
+            "name": "array", 
             "displayName": "all images",
             "type": 
             { 
